@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -59,6 +67,7 @@ h6,
 p {
   margin-bottom: 0;
   margin-top: 0;
+
 }
 .section {
   padding-top: 120px;
@@ -179,12 +188,20 @@ p {
 }
 
 /* -------------------------------------------Hero ----------------------------------------- */
+
+
+
+
+
 .hero-class {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
   display: block;
   align-items: center;
+ background-image:linear-gradient(rgba(46, 47, 66, 0.7)),  url(../images/peopleoffice1.jpg);
+  background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .hero-title {
@@ -207,6 +224,11 @@ p {
   color: #fff;
   background: #4d5ae5;
   display: block;
+ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ transition-delay: 0ms;
+ transition-property: background-color;
+transition-duration: 250ms;
+
   min-width: 169px;
   height: 56px;
   border: none;
