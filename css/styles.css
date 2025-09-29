@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -67,7 +65,6 @@ h6,
 p {
   margin-bottom: 0;
   margin-top: 0;
-
 }
 .section {
   padding-top: 120px;
@@ -123,9 +120,7 @@ p {
   gap: 40px;
 }
 
-
 .flex-item {
-
   padding-bottom: 24px;
   padding-top: 24px;
 }
@@ -189,19 +184,16 @@ p {
 
 /* -------------------------------------------Hero ----------------------------------------- */
 
-
-
-
-
 .hero-class {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
   display: block;
   align-items: center;
- background-image:linear-gradient(rgba(46, 47, 66, 0.7)),  url(../images/peopleoffice1.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+    url(../images/peopleoffice1.jpg);
   background-repeat: no-repeat;
-   background-size: cover;
+  background-size: cover;
 }
 
 .hero-title {
@@ -224,10 +216,10 @@ p {
   color: #fff;
   background: #4d5ae5;
   display: block;
- transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
- transition-delay: 0ms;
- transition-property: background-color;
-transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
+  transition-property: background-color;
+  transition-duration: 250ms;
 
   min-width: 169px;
   height: 56px;
@@ -235,7 +227,6 @@ transition-duration: 250ms;
   border-radius: 4px;
   align-items: center;
   margin: 0 auto;
-
 }
 .button:hover {
   background-color: #404bbf;
@@ -274,19 +265,15 @@ transition-duration: 250ms;
 }
 
 .vektor-features {
-display: flex;
-justify-content: center;
-align-items: center;
-border: 1px solid #8e8f99;
-border-radius: 4px;
-width: 264px;
-height: 112px;
-background: #f4f4fd;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
 }
-
-
-
 
 .features-title {
   font-weight: 500;
@@ -313,11 +300,9 @@ background: #f4f4fd;
   padding-bottom: 120px;
 }
 
-
 .social-vek {
   display: flex;
   justify-content: space-evenly;
-
 }
 
 .icons {
@@ -340,8 +325,6 @@ background: #f4f4fd;
   fill: white;
 }
 
-
-
 .icons:hover {
   background-color: #404bbf;
 }
@@ -351,13 +334,6 @@ background: #f4f4fd;
 }
 
 /* brak */
-
-
-
-
-
-
-
 
 .work-title {
   font-weight: 700;
@@ -412,27 +388,25 @@ background: #f4f4fd;
   margin-bottom: 72px;
 }
 
-
 .wrapper {
-  position: relative; 
+  position: relative;
   overflow: hidden;
 }
 
 .par-overley {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
-background: #4d5ae5;
-width: 360px;
-height: 300px;
-padding-top: 40px;
-padding-left: 32px;
-padding-right: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background: #4d5ae5;
+  width: 360px;
+  height: 300px;
+  padding-top: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
-
 
 .overley {
   width: 100%;
@@ -441,25 +415,14 @@ padding-right: 32px;
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateY(100%)
+  transform: translateY(100%);
 }
 
 .overley:hover,
 .overley:focus {
   transform: translateY(0%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
- 
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
-
-
-
-
-
-
-
-
 
 .portfolio-ul {
   display: flex;
@@ -511,9 +474,7 @@ padding-right: 32px;
 .footer-color {
   background-color: #2e2f42;
   padding: 100px 0;
-
 }
-
 
 .footer-color a {
   display: inline-block;
@@ -527,7 +488,6 @@ padding-right: 32px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  
 }
 
 .footer-span {
@@ -540,12 +500,11 @@ padding-right: 32px;
   text-transform: uppercase;
 }
 .footer-color {
-  
   height: 312px;
   padding: 100px 0;
 }
 .logo-footer {
-font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -562,21 +521,15 @@ font-family: 'Raleway', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-margin-right: 100px;
- margin-left: 200px;
+  margin-right: 100px;
+  margin-left: 200px;
 }
 
-
-
-
-
-
 .footer-title {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #fff;
-
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
 }
