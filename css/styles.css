@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+::after body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -43,6 +43,8 @@ button {
 
 .header-class {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .pane {
@@ -160,6 +162,7 @@ p {
   margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
+  position: relative;
 }
 
 .adress {
@@ -185,15 +188,20 @@ p {
 /* -------------------------------------------Hero ----------------------------------------- */
 
 .hero-class {
+  max-width: 1440px; 
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
   display: block;
   align-items: center;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
-    url(../images/peopleoffice1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/img-name.jpeg);
 }
 
 .hero-title {
