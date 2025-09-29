@@ -188,20 +188,22 @@ p {
 /* -------------------------------------------Hero ----------------------------------------- */
 
 .hero-class {
-  max-width: 1440px; 
+  max-width: 1440px;
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
   display: block;
   align-items: center;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/img-name.jpeg);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -281,6 +283,7 @@ background-size: cover;
   width: 264px;
   height: 112px;
   background: #f4f4fd;
+  margin-bottom: 8px;
 }
 
 .features-title {
@@ -301,11 +304,16 @@ background-size: cover;
   color: #434455;
 }
 
-/* Workes */
+/*========================================================= Workes */
 .workes {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.vektor-fant {
+  width: 100%;
+  height: 100%;
 }
 
 .social-vek {
@@ -357,12 +365,15 @@ background-size: cover;
 .workers-ul {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .work-li {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .name-box {
