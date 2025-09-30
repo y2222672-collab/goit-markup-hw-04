@@ -8,6 +8,7 @@
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  content: "";
 }
 .container {
   box-sizing: border-box;
@@ -109,6 +110,8 @@ border-radius: 2px;
   padding-top: 24px;
   padding-bottom: 24px;
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+position: relative;
+
 
 }
 
@@ -144,7 +147,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-top: 24px;
   position: relative;
   color: #404bbf;
-
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -177,14 +180,14 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
   display: flex;
   display: inline-block;
   margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
-
-
+position: relative;
+color: #404bbf; 
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -336,14 +339,40 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-bottom: 120px;
 }
 
+.social-items {
+width: 40px;
+height: 40px; 
+
+}
+
+.work-social {
+  width: 100%;
+
+}
+
 .vektor-fant {
   width: 100%;
   height: 100%;
+  background-color:#4d5ae5;
+  border-radius:50%;
+display: flex; 
+align-items: center; 
+justify-content: center;
+
 }
+
+.vektor-fant:hover,
+.vektor-fant:focus {
+  background-color: #404bbf;
+}
+
+
+
 
 .social-vek {
   display: flex;
-  justify-content: space-evenly;
+  gap: 24px;
+  justify-content: center; 
 }
 
 .icons {
