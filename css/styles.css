@@ -74,6 +74,20 @@ p {
 }
 
 /* ========================================Header========================  */
+
+#nav-link-sstudio::after {
+  content: "!";
+width: 100%;
+ position: absolute;
+left: 0;
+bottom: -1px;
+height: 4px;
+background-color: #404bbf; 
+border-radius: 2px;
+
+
+}
+
 .studio-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -82,6 +96,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+
 }
 /* =================================Navigation=========================== */
 .navigation {
@@ -93,11 +108,15 @@ p {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .navi-menu {
   display: flex;
   align-items: center;
+
+
 }
 
 .flex-list-header {
@@ -123,6 +142,10 @@ p {
 .flex-item {
   padding-bottom: 24px;
   padding-top: 24px;
+  position: relative;
+  color: #404bbf;
+
+
 }
 
 .navigation:hover {
@@ -160,7 +183,9 @@ p {
   margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
-  position: relative;
+
+
+
 }
 
 .adress {
@@ -175,6 +200,8 @@ p {
   font-size: 16px;
   padding-bottom: 24px;
   padding-top: 24px;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .contact-info-mail:focus {
   color: #404bbf;
