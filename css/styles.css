@@ -8,7 +8,7 @@
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
-  content: "";
+  content: '';
 }
 .container {
   box-sizing: border-box;
@@ -77,16 +77,14 @@ p {
 /* ========================================Header========================  */
 
 #nav-link-sstudio::after {
-  content: "!";
-width: 100%;
- position: absolute;
-left: 0;
-bottom: -1px;
-height: 4px;
-background-color: #404bbf; 
-border-radius: 2px;
-
-
+  content: '!';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 .studio-link {
@@ -97,7 +95,6 @@ border-radius: 2px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-
 }
 /* =================================Navigation=========================== */
 .navigation {
@@ -109,17 +106,13 @@ border-radius: 2px;
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-position: relative;
-
-
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
 }
 
 .navi-menu {
   display: flex;
   align-items: center;
-
-
 }
 
 .flex-list-header {
@@ -145,10 +138,8 @@ position: relative;
 .flex-item {
   padding-bottom: 24px;
   padding-top: 24px;
-  position: relative;
   color: #404bbf;
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation:hover {
@@ -185,10 +176,9 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
-position: relative;
-color: #404bbf; 
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  position: relative;
+  color: #404bbf;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress {
@@ -203,8 +193,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 16px;
   padding-bottom: 24px;
   padding-top: 24px;
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-info-mail:focus {
   color: #404bbf;
@@ -340,39 +329,42 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-items {
-width: 40px;
-height: 40px; 
-
+  width: 40px;
+  height: 40px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .work-social {
   width: 100%;
-
 }
 
 .vektor-fant {
   width: 100%;
   height: 100%;
-  background-color:#4d5ae5;
-  border-radius:50%;
-display: flex; 
-align-items: center; 
-justify-content: center;
-
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition-delay: 0ms;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.vektor-fant:hover,
+.vektor-fant:hover {
+  background-color: #404bbf;
+}
+
 .vektor-fant:focus {
   background-color: #404bbf;
 }
 
-
-
-
 .social-vek {
   display: flex;
   gap: 24px;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .icons {
@@ -395,13 +387,13 @@ justify-content: center;
   fill: white;
 }
 
-.icons:hover {
+/* .icons:hover {
   background-color: #404bbf;
 }
 
 .icons:focus {
   background-color: #404bbf;
-}
+} */
 
 /* brak */
 
@@ -462,8 +454,17 @@ justify-content: center;
 
 .wrapper {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
+
+.box {
+position: relative;
+overflow: hidden;
+}
+
+
+
+
 
 .par-overley {
   font-family: 'Roboto', sans-serif;
@@ -480,6 +481,10 @@ justify-content: center;
   padding-right: 32px;
 }
 
+
+/* ====================================================================== */
+
+
 .overley {
   width: 100%;
   height: 100%;
@@ -488,13 +493,23 @@ justify-content: center;
   top: 0;
   left: 0;
   transform: translateY(100%);
-}
-
-.overley:hover,
-.overley:focus {
-  transform: translateY(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.box:hover .overley {
+    transform: translateY(0%);
+}
+
+/* .overley:hover,
+.overley:focus {
+  transform: translateY(0%);
+ 
+} */
+
+
+
+
+/* ===================================================================================== */
 
 .portfolio-ul {
   display: flex;
