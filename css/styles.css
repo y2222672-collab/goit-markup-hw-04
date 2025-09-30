@@ -77,7 +77,7 @@ p {
 /* ========================================Header========================  */
 
 #nav-link-sstudio::after {
-  content: '!';
+  content: '';
   width: 100%;
   position: absolute;
   left: 0;
