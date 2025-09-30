@@ -110,8 +110,6 @@ p {
 
 .flex-nav {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   flex-direction: row;
   align-items: flex-start;
   gap: 40px;
@@ -169,14 +167,14 @@ p {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 
 .contact-info-mail {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16px;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 .contact-info-mail:focus {
   color: #404bbf;
@@ -404,7 +402,6 @@ p {
 .portfolio-section {
   padding-top: 120px;
   padding-bottom: 120px;
-  margin-bottom: 72px;
 }
 
 .wrapper {
@@ -500,9 +497,9 @@ p {
   margin-bottom: 16px;
 }
 
-.footer-p {
+.footer-text {
+  max-width: 264px;
   font-weight: 400;
-  padding-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -518,10 +515,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-color {
-  height: 312px;
-  padding: 100px 0;
-}
+
 .logo-footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -530,10 +524,6 @@ p {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   display: inline-block;
-  margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin-bottom: 16px;
 }
 
 .footer-vektor {
