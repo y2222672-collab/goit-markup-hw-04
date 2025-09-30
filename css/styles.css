@@ -156,6 +156,8 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
 }
 
 .contact-info:hover {
@@ -352,7 +354,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
   transition-property: background-color;
   transition-duration: 250ms;
@@ -470,23 +472,37 @@ p {
 }
 
 .par-overley {
+  transform: translateY(0%);
+  position: absolute;
+  top: 0;
+
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  background: #4d5ae5;
-  width: 360px;
-  height: 300px;
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
- 
+  background-color: #4d5ae5;
+  padding: 40px 32px;
+  height:100% ;
+  width: 100%;
+ transform: translateY(100%);
+ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ====================================================================== */
+.overley {
 
+
+}
+
+
+
+.box:hover .par-overley {
+  transform: translateY(0);
+
+}
+/* ====================================================================== */
+/* 
 .overley {
   width: 100%;
   height: 100%;
@@ -502,7 +518,7 @@ p {
   transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+} */
 
 
 /* ===================================================================================== */
@@ -522,6 +538,9 @@ p {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+
 
 .banking-box {
   padding: 32px 16px;
@@ -600,10 +619,8 @@ p {
 
 .footer-vektor {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-right: 100px;
-  margin-left: 200px;
+align-items: baseline;
+
 }
 
 .footer-title {
@@ -614,3 +631,11 @@ p {
   letter-spacing: 0.02em;
   color: #fff;
 }
+
+
+.fantasy {
+max-width: 264px;
+margin-right: 120px;
+
+}
+
